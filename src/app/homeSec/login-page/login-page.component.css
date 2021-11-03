@@ -1,0 +1,80 @@
+/*-----------mobile view----------*/
+@media only screen and (max-width: 767px){
+    .home{
+        padding: 6% 0;
+        background-color: #000000;
+        width: 100%;
+    }
+    .logo{
+        padding-top: 4%;
+    }
+    .container{
+        box-shadow: inset 0px 6px 5px 7px #80808082;
+        background-color: white;
+    }
+    .fieldBox{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    /* .mat-form-field{
+        display: block;
+    }*/
+    .btn{
+        width: 50%;
+    } 
+}
+/*-------------big screen---------*/
+@media only screen and (min-width: 768px){
+    
+    .home{
+        padding: 6% 0;
+        background-color: #000000;
+        width: 100%;
+    }
+    .logo{
+        padding-top: 4%;
+    }
+    .container{
+        box-shadow: inset 0px 6px 5px 7px #80808082;
+        background-color: white;
+        width: 66%;
+        height: 68%;
+    }
+    .fieldBox{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .btn{
+        width: 42%;
+    } 
+}
+
+/*--------BIG LAPTOP SCREENS----*/
+@media only screen and (min-width: 1024px){
+    
+   
+    .home{
+        padding: 6% 0;
+        background-color: #000000;
+        width: 100%;
+    }
+    .logo{
+        padding-top: 4%;
+    }
+    .container{
+        box-shadow: inset 0px 6px 5px 7px #80808082;
+        background-color: white;
+        width: 66%;
+        height: 82%;
+    }
+    .fieldBox{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .btn{
+        width: 24%;
+    } 
+}

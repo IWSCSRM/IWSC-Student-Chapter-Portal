@@ -1,0 +1,117 @@
+.carousel-inner img{
+    width: 100%;
+    height: calc(3/8*120vw);
+  }
+  .carousel-caption{
+    position:absolute;
+    bottom:10%;
+    font-family:Montserrat,Helvetica,sans-serif;
+  }  
+
+  .carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: opacity .3s ease;
+}
+  .carousel-caption h2{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow:1px 1px 8px #007aff;
+    font-family: Montserrat,Helvetica,sans-serif;
+  }
+  .carousel-caption p{
+    font-size: 200%;
+    color:#ffffff;
+    text-shadow:1px 1px 10px #000000;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+.visually{
+    text-decoration: none;
+  }
+
+ span{ 
+    opacity: 0.95;
+    text-decoration: none; 
+ } 
+
+ a span:hover { 
+     opacity: 0.95;
+     text-decoration: none; 
+  } 
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (max-width: 1000px) { 
+  
+ .carousel-inner img{
+    width: 100%;
+    height: calc(3/8*160vw);
+  }
+  .carousel-caption h2{
+    font-size: 400%;
+  }
+  .carousel-caption p{
+    font-size: 150%;
+  }
+}
+
+
+/* Medium (md) devices (tablets, 768px and up) */
+
+@media (max-width: 768px) { 
+  
+ .carousel-inner img{
+    width: 100%;
+    height: calc(3/8*185vw);
+  }
+  .visually{
+    display: none;
+}
+.carousel-caption h2{
+    font-size: 350%;
+  }
+  .carousel-caption p{
+    font-size: 130%;
+  }
+}
+
+
+/* Extra small (xs) devices (portrait phones, less than 576px)
+
+Small (sm) devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) { 
+  
+ .carousel-inner img{
+    width: 100%;
+    height: calc(3/8*250vw);
+  }
+  .carousel-caption h2{
+    font-size: 200%;
+  }
+  .carousel-caption p{
+    font-size: 90%;
+  }
+  .carousel-caption{
+    position:absolute;
+    bottom:1%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1em;
+  }  
+}
+
+
+
+

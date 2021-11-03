@@ -1,0 +1,116 @@
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.heading-bold{
+    text-align: center;
+    font-size: 4vw;
+    font-family: Montserrat,Helvetica,sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .container-box{
+      background: black;
+  }
+  .icon-right{
+      width: 30px;
+      height: 30px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 25vw;
+    height: 250px;
+    perspective: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+   .left{
+margin-left: 40%;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  .flip-card-front h3{
+      font-size: 150%;
+      margin-top: 5%;
+  }
+  .flip-card-back {
+    background-color:#007aff;
+    color: rgb(221, 221, 221);
+    transform: rotateY(180deg);
+    border-radius: 10px;
+  
+  }
+  .flip-card-back h1 {
+   font-size: 700%;
+   color: rgb(22, 22, 22);
+   margin-top: 15%;
+   font-weight: 700;
+  }
+  .flip-card-back p {
+   font-size: 180%;
+   font-weight: 500;
+   margin-top: 15%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+/* for small screens ----------------------- */
+@media (max-width: 768px){
+  .heading-bold{
+    font-size: 6vw;
+    font-weight: 600;
+  }
+  .flip-card {
+    width: 35vw;
+    height: 250px;
+    perspective: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .left{
+    margin-left: 20%;
+      }
+  .right{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 576px){
+  .heading-bold{
+    font-size: 7vw;
+    font-weight: 600;
+  }
+  .flip-card {
+    width: 60vw;
+    height: 280px;
+    perspective: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+  }
+  .flip-card-back p {
+    font-size: 150%;
+    margin-top: 25%;
+   }
+ 
+}

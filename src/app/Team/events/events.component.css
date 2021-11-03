@@ -1,0 +1,144 @@
+
+.header {
+    width: 100%;
+    padding: 73px 80px;
+    background: url(../../../assets/img/hearder.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.white_bg {
+    background: #fff;
+    border-radius: 50px;
+    opacity: 0.9;
+    padding: 40px 35px;
+    height: 80vh;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+  
+
+/** banner section **/
+
+.banner_main {
+    padding: 40px 0 20px 0;
+}
+
+.text-bg {
+    text-align: left;
+}
+
+.text-bg span {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.text-bg h1 {
+    color: #050505;
+    font-size: 66px;
+    line-height: 70px;
+    padding-bottom: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.text-bg p {
+    line-height: 28px;
+    padding-bottom: 50px;
+    display: block;
+    color: #1f1f1f;
+    font-size: 17px;
+}
+
+.text-bg .read_more {
+    max-width: 200px;
+}
+
+.text_img figure {
+    margin: 0;
+}
+
+.text_img figure img {
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.carousel-caption {
+    position: inherit;
+}
+
+/** end banner section **/
+@media (max-width: 768px){
+.banner_main {
+        padding: 30px 0 20px 0;
+    }
+.text-bg h1 {
+        font-size: 60px;
+        padding-bottom: 15px;
+        font-weight: 600;
+    }
+
+.banner_main {
+        padding: 30px 0 20px 0;
+    }
+}
+
+@media (max-width: 576px){
+.banner_main {
+        padding: 10px 0 15px 0;
+    }
+    
+.header {
+    width: 100%;
+    padding: 30px 20px;
+    background: url(../../../assets/img/hearder.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.white_bg{
+    height: 90vh;
+    padding: 20px 35px;
+}
+
+
+.text-bg span {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 20px;
+    }
+    
+.text-bg span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+.text-bg h1 {
+        color: #050505;
+        font-size: 45px;
+        line-height: 70px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+.text-bg p {
+        line-height: 28px;
+        padding-bottom: 25px;
+        display: block;
+        color: #1f1f1f;
+        font-size: 17px;
+    }
+    .text_img figure img {
+        margin-top: 5vh;
+    }
+    
+}
+
+

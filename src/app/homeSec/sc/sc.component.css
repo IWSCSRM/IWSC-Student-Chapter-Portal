@@ -1,0 +1,30 @@
+/* Structure */
+table {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+ .newSc{
+    width: 100%;
+    margin-top: 2.5%;
+ }
+ .firstRow{
+    margin-right: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+ }
+.chpHead{
+    color: #3c3535d9;
+    padding-top: 1.4%;
+    margin-bottom: -1.8px;
+}
+mat-form-field{
+   margin-left: 2%;
+}
+
+  

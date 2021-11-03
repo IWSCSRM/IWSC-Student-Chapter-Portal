@@ -1,0 +1,23 @@
+li :hover {
+    background-color: #ffffff4a;
+    border-radius: 5%;
+}
+.active{
+    background-color: #ffffff4a;
+    border-radius: 5%;
+}
+
+a :hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+/*-----BIG SCREEN---*/
+@media (min-width: 1024px){
+    .navbar-nav{
+        width: 60%;
+    }
+    .one{
+        margin-left: 2.4%;
+    }
+
+}
