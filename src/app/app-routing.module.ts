@@ -9,6 +9,7 @@ import { RankingComponent } from './Ranking/ranking/ranking.component';
 import { AchievementsComponent } from './Members/achievements/achievements.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component:AboutUsComponent},
   {path: 'studentchapters', component: ScComponent},
   {path: 'login-page', component: LoginPageComponent},
@@ -19,7 +20,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'enabled', // Add options right here
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
